@@ -4,7 +4,7 @@ import numpy as np
 import pytesseract
 from PIL import Image
 
-img = cv2.imread('4.jpg',cv2.IMREAD_COLOR)
+img = cv2.imread('enter the file name',cv2.IMREAD_COLOR)# enter the name of the image in the 'enter the name' space
 
 img = cv2.resize(img, (620,480) )
 
